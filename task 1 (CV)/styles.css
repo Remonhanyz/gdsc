@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900&display=swap");
+h1 {
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 2.4rem;
+	margin-bottom: 10px;
+}
+h3 {
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 1.6rem;
+	font-weight: 500;
+	padding: 0;
+	margin-bottom: 0.4rem;
+	margin-top: 1rem;
+}
+.contact-Info {
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	text-align: center;
+}
+.imp-sites {
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	margin-top: 9px;
+	margin-bottom: 15px;
+}
+.section-content {
+	padding-top: 1rem;
+	display: grid;
+	text-align: start;
+	grid-template-columns: 2fr 1fr;
+}
+.skills-content {
+	padding-top: 1rem;
+	display: grid;
+	text-align: start;
+	grid-template-columns: 2fr 4fr;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+a:hover,
+a:active {
+	color: gray;
+}
+a:visited {
+	color: black;
+}
+.center {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+.w-100 {
+	width: 100%;
+}
+.sub-title {
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+	font-size: 1.12rem;
+	font-weight: 600;
+	padding-bottom: 0.1rem;
+}
+.text {
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+	color: gray;
+}
+.text-end {
+	text-align: end;
+}
+.list-container {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	padding: 0 0 0 1rem;
+	flex-wrap: wrap;
+}
+.nav-item {
+	list-style-type: none;
+	margin-right: 1rem;
+}
+.nav-link {
+	color: black;
+	font-family: "M PLUS Rounded 1c", sans-serif;
+	/* text-underline-offset: 4px; */
+	font-weight: 600;
+}
+h4 {
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 1.1rem;
+	font-weight: 600;
+}
+section {
+	padding-top: 0.5rem;
+}
+.container {
+	max-width: 1140px;
+	width: 100%;
+}
+
+@media (max-width: 1199.98px) {
+	.container {
+		max-width: 960px;
+		width: 100%;
+	}
+}
+@media (max-width: 991.98px) {
+	.container {
+		max-width: 720px;
+		width: 100%;
+	}
+}
+@media (max-width: 767.98px) {
+	.container {
+		max-width: 575.98px;
+		width: 100%;
+	}
+}
+
+@media (max-width: 575.98px) {
+	.container {
+		max-width: 540px;
+		width: 100%;
+	}
+	.section-content {
+		padding-top: 1rem;
+		display: grid;
+		text-align: center;
+		grid-template-columns: 1fr;
+	}
+	.skills-content {
+		padding-top: 1rem;
+		display: grid;
+		text-align: center;
+		grid-template-columns: 1fr;
+	}
+	.text-end{
+		text-align: center;
+
+	}
+}
+
+body {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
